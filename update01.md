@@ -5,7 +5,7 @@ The following arguments need to be added to `mpconfigport.h`
 
 2. `{ MP_OBJ_NEW_QSTR(MP_QSTR_mymodule), (mp_obj_t)&mymodule_module }, \` to `EXTRA_BUILTIN_MODULES` macro
 
-## 1. No arguement needs to be added in to the `mpconfigport.h`
+## 1. No arguement needs to be added in to the `mpconfigport.h`  X(mymodule does not show up in circuitpython REPL)
 
   This is a function in `C:\Users\Fan Siyi\Desktop\circuitpython-main\py\objmodule.c` that loads built in modules.
   
